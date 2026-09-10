@@ -1,0 +1,71 @@
+[Event "Openings with Reasons / 06.1A"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "06.1"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2"]
+[SetUp "1"]
+
+{ Opening moves should do visible work: influence the center, develop pieces to useful squares, and prepare king safety. Principles help you generate candidates; threats decide the move. } 2. Nf3 Nc6 3. Bc4 { Illustrative line. Nf3 develops with a target. Black can answer ...Nc6, defending e5 while bringing out a piece. Bc4 then develops the bishop and looks toward f7. These are useful moves because their jobs can be explained from the board. They are not a script to follow regardless of the opponent. If Black creates a concrete threat or changes the center, stop and inspect that change before making your next familiar move. } *
+
+[Event "Openings with Reasons / 06.1B"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "06.1"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"]
+[SetUp "1"]
+
+{ Exercise. Try the questions in the book before reading this line. } 3. Nc3 Nf6 4. Nf3 { Illustrative line. Nc3 attacks d5 and e4. The d5-pawn is the central point of contact with White's c4-pawn. The knight also develops toward the center. ...Nf6 develops a knight and protects d5. It helps Black maintain the central pawn rather than reacting to development with an unrelated move. Nf3 develops the other knight, controls d4 and e5, and clears g1 for eventual castling. White still needs to move the f1-bishop and verify king safety before castling. Several sound opening continuations exist. } *
+
+[Event "Openings with Reasons / 06.2A"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "06.2"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5"]
+[SetUp "1"]
+
+{ Castling is a king move with strict conditions. Clear squares are necessary, but the king also needs a safe starting square, transit square and destination. } 5. O-O d6 6. c3 { Illustrative line. O-O moves the white king from e1 to g1 and the rook from h1 to f1. White improves king shelter and brings the rook nearer the center in one move. The sample continuation ...d6 c3 supports a future central plan. Before playing it in a game, inspect Black's reply. Castling has improved safety, but it has not removed the need to check threats on every turn. } *
+
+[Event "Openings with Reasons / 06.2B"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "06.2"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "6k1/p5pp/b7/8/8/5B2/5PPP/4K2R w K - 0 1"]
+[SetUp "1"]
+
+{ Exercise. Try the questions in the book before reading this line. } 1. Be2 Bxe2 2. Kxe2 { Illustrative line. The bishop attacks f1, the square the king would cross. The path between a6 and f1 is clear in this diagram. No. White cannot castle through the attacked square f1. Castling rights record move history; they do not guarantee that castling is legal now. Be2 blocks the diagonal. If Black exchanges with ...Bxe2, Kxe2 removes that bishop. Moving the king permanently gives up castling rights. This illustrates a legal way to resolve the diagonal, not a uniquely best conversion of White's large material advantage. } *
+
+[Event "Openings with Reasons / 06.3A"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "06.3"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3"]
+[SetUp "1"]
+
+{ Developing with an attack can gain a tempo: the opponent must spend a turn dealing with your threat. Verify that the developing piece really attacks its target. } 3. Nc3 Qa5 4. d4 { Illustrative line. Nc3 develops a piece while attacking the queen. After ...Qa5, d4 establishes a central pawn and opens the c1-bishop's diagonal. Do not keep chasing the queen just because the first attack worked. Compare the usefulness of the next developing move with the time and squares you would give up to attack it again. The queen on a5 is not automatically trapped. } *
+
+[Event "Openings with Reasons / 06.3B"]
+[Site "Original teaching position"]
+[Date "2026.09.10"]
+[Round "06.3"]
+[White "White"]
+[Black "Black"]
+[Result "*"]
+[FEN "rnb1kbnr/pp2pppp/2p5/q7/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5"]
+[SetUp "1"]
+
+{ Exercise. Try the questions in the book before reading this line. } 5. Bd2 Nf6 6. Nf3 { Illustrative line. No. The diagonal is d2-c3-b4-a5, and the bishop's line stops at c3. Black is not forced to move the queen in response to Bd2. White's own knight stands on c3. Bishops cannot attack through friendly pieces. Calling this an attack on the queen would miscount the tempo. Yes. Bd2 develops the bishop and can prepare future ideas if the knight moves. In the sample ...Nf6 Nf3, both sides continue development. A useful quiet move does not need to be described as a forcing move to justify it. } *

@@ -1,0 +1,308 @@
+{
+  "number": 6,
+  "slug": "chess-openings-with-reasons",
+  "title": "Openings with Reasons",
+  "goal": "Develop with a purpose, get the king safe legally, and value a useful tempo.",
+  "lessons": [
+    {
+      "id": "06.1",
+      "title": "Develop toward the central struggle",
+      "idea": "Opening moves should do visible work: influence the center, develop pieces to useful squares, and prepare king safety. Principles help you generate candidates; threats decide the move.",
+      "facts": [
+        "The pawns on e4 and e5 contest central squares.",
+        "Nf3 develops a knight and attacks the e5-pawn.",
+        "Moving the knight and f1-bishop prepares kingside castling, subject to its safety conditions."
+      ],
+      "explain": [
+        "Nf3 develops with a target. Black can answer ...Nc6, defending e5 while bringing out a piece. Bc4 then develops the bishop and looks toward f7.",
+        "These are useful moves because their jobs can be explained from the board. They are not a script to follow regardless of the opponent. If Black creates a concrete threat or changes the center, stop and inspect that change before making your next familiar move."
+      ],
+      "caution": "Do not turn development into a counting contest. A developed piece on an unsafe square is worse than an undeveloped piece that can enter safely next turn.",
+      "questions": [
+        "Which central square does Nc3 help White control?",
+        "Why is ...Nf6 a sensible black reply?",
+        "Give White's next developing move and one job it performs."
+      ],
+      "answers": [
+        "Nc3 attacks d5 and e4. The d5-pawn is the central point of contact with White's c4-pawn. The knight also develops toward the center.",
+        "...Nf6 develops a knight and protects d5. It helps Black maintain the central pawn rather than reacting to development with an unrelated move.",
+        "Nf3 develops the other knight, controls d4 and e5, and clears g1 for eventual castling. White still needs to move the f1-bishop and verify king safety before castling. Several sound opening continuations exist."
+      ],
+      "transfer": "For the first ten moves of one game, write a short job beside each move. If a move only says \"it is theory,\" find its actual target, defense or preparation.",
+      "recall": [
+        "What three useful jobs often justify an opening move?",
+        "Central influence, safe development, and preparation for king safety."
+      ],
+      "positions": {
+        "A": {
+          "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+          "opening_moves": "e4 e5",
+          "line": "Nf3 Nc6 Bc4",
+          "alternative": "",
+          "purpose": "candidate",
+          "validation": {
+            "id": "06.1A",
+            "title": "Develop toward the central struggle",
+            "fen": "rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq - 0 2",
+            "line": "Nf3 Nc6 Bc4",
+            "bad": "",
+            "checkmate": false,
+            "stalemate": false,
+            "candidates": [
+              {
+                "san": "Nf3",
+                "score": "+21",
+                "depth": 18
+              },
+              {
+                "san": "Nc3",
+                "score": "+4",
+                "depth": 18
+              },
+              {
+                "san": "Bc4",
+                "score": "-1",
+                "depth": 18
+              }
+            ],
+            "chosen_score": "+29"
+          }
+        },
+        "B": {
+          "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+          "opening_moves": "d4 d5 c4 e6",
+          "line": "Nc3 Nf6 Nf3",
+          "alternative": "",
+          "purpose": "candidate",
+          "validation": {
+            "id": "06.1B",
+            "title": "Develop toward the central struggle",
+            "fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+            "line": "Nc3 Nf6 Nf3",
+            "bad": "",
+            "checkmate": false,
+            "stalemate": false,
+            "candidates": [
+              {
+                "san": "Nf3",
+                "score": "+26",
+                "depth": 18
+              },
+              {
+                "san": "Nc3",
+                "score": "+22",
+                "depth": 18
+              },
+              {
+                "san": "cxd5",
+                "score": "+22",
+                "depth": 18
+              }
+            ],
+            "chosen_score": "+26"
+          }
+        }
+      }
+    },
+    {
+      "id": "06.2",
+      "title": "Castling has conditions",
+      "idea": "Castling is a king move with strict conditions. Clear squares are necessary, but the king also needs a safe starting square, transit square and destination.",
+      "facts": [
+        "White's king and h1-rook retain castling rights.",
+        "The squares f1 and g1 are empty.",
+        "The king is not in check, and neither f1 nor g1 is attacked by Black."
+      ],
+      "explain": [
+        "O-O moves the white king from e1 to g1 and the rook from h1 to f1. White improves king shelter and brings the rook nearer the center in one move.",
+        "The sample continuation ...d6 c3 supports a future central plan. Before playing it in a game, inspect Black's reply. Castling has improved safety, but it has not removed the need to check threats on every turn."
+      ],
+      "caution": "You cannot castle out of check, through check, or into check. You also lose the relevant right after moving the king or that rook, even if it returns to its original square. An attacked rook does not by itself forbid castling.",
+      "questions": [
+        "Which square does Black's bishop on a6 attack along a6-b5-c4-d3-e2-f1?",
+        "Is O-O legal despite White retaining castling rights?",
+        "What does the example Be2 ...Bxe2 Kxe2 accomplish, and what right does White lose?"
+      ],
+      "answers": [
+        "The bishop attacks f1, the square the king would cross. The path between a6 and f1 is clear in this diagram.",
+        "No. White cannot castle through the attacked square f1. Castling rights record move history; they do not guarantee that castling is legal now.",
+        "Be2 blocks the diagonal. If Black exchanges with ...Bxe2, Kxe2 removes that bishop. Moving the king permanently gives up castling rights. This illustrates a legal way to resolve the diagonal, not a uniquely best conversion of White's large material advantage."
+      ],
+      "transfer": "Before castling in three practice games, point to the king's starting, crossing and destination squares and name any enemy attacks on them.",
+      "recall": [
+        "Can the king castle through an attacked square if the final square is safe?",
+        "No. The starting, transit and destination king squares must all satisfy the castling safety rules."
+      ],
+      "positions": {
+        "A": {
+          "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+          "opening_moves": "e4 e5 Nf3 Nc6 Bc4 Bc5 d3 Nf6",
+          "line": "O-O d6 c3",
+          "alternative": "",
+          "purpose": "candidate",
+          "validation": {
+            "id": "06.2A",
+            "title": "Castling has conditions",
+            "fen": "r1bqk2r/pppp1ppp/2n2n2/2b1p3/2B1P3/3P1N2/PPP2PPP/RNBQK2R w KQkq - 1 5",
+            "line": "O-O d6 c3",
+            "bad": "",
+            "checkmate": false,
+            "stalemate": false,
+            "candidates": [
+              {
+                "san": "Nbd2",
+                "score": "+30",
+                "depth": 18
+              },
+              {
+                "san": "O-O",
+                "score": "+21",
+                "depth": 18
+              },
+              {
+                "san": "c3",
+                "score": "+20",
+                "depth": 18
+              }
+            ],
+            "chosen_score": "+24"
+          }
+        },
+        "B": {
+          "fen": "6k1/p5pp/b7/8/8/5B2/5PPP/4K2R w K - 0 1",
+          "opening_moves": "",
+          "line": "Be2 Bxe2 Kxe2",
+          "alternative": "",
+          "purpose": "legality",
+          "validation": {
+            "id": "06.2B",
+            "title": "Castling has conditions",
+            "fen": "6k1/p5pp/b7/8/8/5B2/5PPP/4K2R w K - 0 1",
+            "line": "Be2 Bxe2 Kxe2",
+            "bad": "",
+            "checkmate": false,
+            "stalemate": false,
+            "candidates": [
+              {
+                "san": "Kd2",
+                "score": "+829",
+                "depth": 18
+              },
+              {
+                "san": "Be4",
+                "score": "+815",
+                "depth": 18
+              },
+              {
+                "san": "Bd5+",
+                "score": "+813",
+                "depth": 18
+              }
+            ],
+            "chosen_score": "+722"
+          }
+        }
+      }
+    },
+    {
+      "id": "06.3",
+      "title": "Gain a tempo without chasing blindly",
+      "idea": "Developing with an attack can gain a tempo: the opponent must spend a turn dealing with your threat. Verify that the developing piece really attacks its target.",
+      "facts": [
+        "Black's queen has recaptured on d5.",
+        "A knight developed to c3 attacks d5 directly.",
+        "White can use the queen's retreat to occupy the center with d4."
+      ],
+      "explain": [
+        "Nc3 develops a piece while attacking the queen. After ...Qa5, d4 establishes a central pawn and opens the c1-bishop's diagonal.",
+        "Do not keep chasing the queen just because the first attack worked. Compare the usefulness of the next developing move with the time and squares you would give up to attack it again. The queen on a5 is not automatically trapped."
+      ],
+      "caution": "A diagonal that points toward the queen may be blocked by your own piece. Describe the actual attack, including intervening squares, before claiming that you gained a tempo.",
+      "questions": [
+        "Does Bd2 attack the queen on a5 in the exercise?",
+        "Which piece interrupts that diagonal?",
+        "Can Bd2 still be a useful move without an immediate threat to the queen?"
+      ],
+      "answers": [
+        "No. The diagonal is d2-c3-b4-a5, and the bishop's line stops at c3. Black is not forced to move the queen in response to Bd2.",
+        "White's own knight stands on c3. Bishops cannot attack through friendly pieces. Calling this an attack on the queen would miscount the tempo.",
+        "Yes. Bd2 develops the bishop and can prepare future ideas if the knight moves. In the sample ...Nf6 Nf3, both sides continue development. A useful quiet move does not need to be described as a forcing move to justify it."
+      ],
+      "transfer": "For each developing move you call \"with tempo,\" name the threatened capture and trace its path. If no legal threat exists, evaluate the move on its quieter merits.",
+      "recall": [
+        "Why does Bd2 not attack Qa5 here?",
+        "The white knight on c3 blocks the diagonal d2-c3-b4-a5."
+      ],
+      "positions": {
+        "A": {
+          "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+          "opening_moves": "e4 d5 exd5 Qxd5",
+          "line": "Nc3 Qa5 d4",
+          "alternative": "",
+          "purpose": "candidate",
+          "validation": {
+            "id": "06.3A",
+            "title": "Gain a tempo without chasing blindly",
+            "fen": "rnb1kbnr/ppp1pppp/8/3q4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 3",
+            "line": "Nc3 Qa5 d4",
+            "bad": "",
+            "checkmate": false,
+            "stalemate": false,
+            "candidates": [
+              {
+                "san": "Nc3",
+                "score": "+74",
+                "depth": 18
+              },
+              {
+                "san": "Nf3",
+                "score": "+23",
+                "depth": 18
+              },
+              {
+                "san": "h3",
+                "score": "+22",
+                "depth": 18
+              }
+            ],
+            "chosen_score": "+71"
+          }
+        },
+        "B": {
+          "fen": "rnb1kbnr/pp2pppp/2p5/q7/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+          "opening_moves": "e4 d5 exd5 Qxd5 Nc3 Qa5 d4 c6",
+          "line": "Bd2 Nf6 Nf3",
+          "alternative": "",
+          "purpose": "candidate",
+          "validation": {
+            "id": "06.3B",
+            "title": "Gain a tempo without chasing blindly",
+            "fen": "rnb1kbnr/pp2pppp/2p5/q7/3P4/2N5/PPP2PPP/R1BQKBNR w KQkq - 0 5",
+            "line": "Bd2 Nf6 Nf3",
+            "bad": "",
+            "checkmate": false,
+            "stalemate": false,
+            "candidates": [
+              {
+                "san": "Bd2",
+                "score": "+82",
+                "depth": 18
+              },
+              {
+                "san": "Bc4",
+                "score": "+68",
+                "depth": 18
+              },
+              {
+                "san": "Nf3",
+                "score": "+67",
+                "depth": 18
+              }
+            ],
+            "chosen_score": "+63"
+          }
+        }
+      }
+    }
+  ]
+}
