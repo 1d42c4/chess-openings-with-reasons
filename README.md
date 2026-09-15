@@ -4,7 +4,7 @@ Book 06 of **Chess, One Decision at a Time**.
 
 Develop with a purpose, get the king safe legally, and value a useful tempo.
 
-[Read the full web edition](https://knightway8.github.io/chess-openings-with-reasons/) · [Read the 12-page PDF](06_chess_openings_with_reasons.pdf) · [Download the replayable PGN](positions.pgn)
+[Read the full web edition](https://1d42c4.github.io/chess-openings-with-reasons/) · [Read the 12-page PDF](06_chess_openings_with_reasons.pdf) · [Download the replayable PGN](positions.pgn)
 
 ## Three lessons
 
@@ -23,4 +23,4 @@ Each lesson includes a worked board, a position that changes an important detail
 
 Open `index.html` locally or read on GitHub Pages; no build, account, external script, or tracking is required. To report a correction, give the lesson ID, FEN, move and proposed explanation in an issue. Preserve the published edition while reviewing corrections.
 
-[All ten books and earlier collections](https://github.com/knightway8)
+[All ten books and earlier collections](https://github.com/1d42c4)
